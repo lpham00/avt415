@@ -43,10 +43,11 @@ a:link, a:visited {
 }
 .column-holder {
   display: flex;
+  justify-content: space-between;
 }
 .column {
-  width: 50%;
-  margin: 0 17em;
+  width: 20em;
+  margin: 0 auto;
 }
 ul {
   list-style: none;
