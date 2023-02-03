@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+:root {
+  --pink-color: #c4405e;
+  --almost-black-color: #261e1f;
+  --almost-white-color: #f4f1e9;
+}
+html {
+  font-size: 100%;
+  font-family: 'Poppins', sans-serif;
+} /*16px*/
+
+body {
+  background-color: var(--almost-white-color);
+  color: var(--almost-black-color);
+  margin: 0;
+  padding: 50px;
+  line-height: 1.75;
+}
+h1 {
+  margin: auto;
+  font-size: 5em;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 200;
+  color: var(--pink-color);
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+dt {
+	font-size: 1.25em;
+	font-weight: 500;
+}
+a:link, a:visited {
+  color: var(--pink-color);
+}
+.column-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  width: 20em;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0 1.5em;
+  margin: 2em 0;
+}
+dd {
+  margin: 0;
+}
+dl {
+  padding: 0 1.5em;
+  margin: 2em 0;
+}
+.banner-svg {
+  position: absolute;
+}
+.st0 {
+  fill: var(--pink-color);
+}
+.st1 {
+  fill: var(--almost-black-color);
+}
+.banner-title {
+  color: var(--almost-white-color);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+}
+.banner-holder {
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.bolded-prototype {
+  font-weight: 500;
+}
