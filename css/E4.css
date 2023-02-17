@@ -1,0 +1,76 @@
+html {
+    font-family: 'Figtree', sans-serif;
+    color: #0f2e43;
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        margin: 0 0.5em !important;
+      }
+  }
+
+body {
+    background-color: #fcfdfd;
+    color: var(--almost-black-color);
+    padding: 50px;
+    line-height: 1.75;
+    margin: 0 30em;
+  }
+p {
+    font-size: 1.2em;
+}
+
+a:link {
+    color: #0065a8;
+    text-decoration: none;
+}
+a:visited {
+    color: #d5457e;
+}
+a:hover{
+    color: #d5457e;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 0em;
+    margin-top: -0.2em;
+}
+
+h2 {
+    color: #d5457e;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: -0.3em;
+}
+
+h3 {
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: -0.5em;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: -0.3em;
+}
+    
+.linebreak {
+    display: block;
+}
+
+.summary {
+    font-weight: 600;
+    color: #0065a8;
+}
+.onewordbold {
+    font-weight: 600;
+}
+.firstbold {
+    font-weight: 600;
+}
